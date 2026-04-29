@@ -1,10 +1,5 @@
-/* ============================================================
-   ENERGIAS RENOVÁVEIS NO BRASIL — style.css
-   ============================================================ */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-/* ── Variables ─────────────────────────────────────────────── */
 :root {
   --green:       #2ecc71;
   --green-dark:  #27ae60;
@@ -27,7 +22,6 @@
   --transition:  0.3s ease;
 }
 
-/* ── Reset & Base ──────────────────────────────────────────── */
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
@@ -48,7 +42,6 @@ ul { list-style: none; }
 
 h1,h2,h3,h4 { line-height: 1.2; }
 
-/* ── Utility ───────────────────────────────────────────────── */
 .container { width: 90%; max-width: 1200px; margin: 0 auto; }
 
 .section-title {
@@ -107,7 +100,6 @@ h1,h2,h3,h4 { line-height: 1.2; }
 }
 .fade-in.visible { opacity: 1; transform: translateY(0); }
 
-/* ── Navbar ────────────────────────────────────────────────── */
 .navbar {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -177,7 +169,6 @@ h1,h2,h3,h4 { line-height: 1.2; }
   transition: all var(--transition);
 }
 
-/* ── Hero — Index ──────────────────────────────────────────── */
 .hero {
   min-height: 100vh;
   display: flex;
@@ -274,7 +265,6 @@ h1,h2,h3,h4 { line-height: 1.2; }
 
 .hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; }
 
-/* ── Hero — Inner Pages ────────────────────────────────────── */
 .hero-inner {
   min-height: 50vh;
   display: flex;
@@ -314,7 +304,6 @@ h1,h2,h3,h4 { line-height: 1.2; }
   max-width: 650px;
 }
 
-/* ── Stats Bar ─────────────────────────────────────────────── */
 .stats-bar {
   background: var(--dark-2);
   padding: 2.5rem 0;
@@ -345,7 +334,6 @@ h1,h2,h3,h4 { line-height: 1.2; }
   letter-spacing: 1px;
 }
 
-/* ── Progress Bar ──────────────────────────────────────────── */
 .progress-section { padding: 5rem 0; }
 
 .progress-card {
@@ -388,7 +376,6 @@ h1,h2,h3,h4 { line-height: 1.2; }
 .fill-teal   { background: linear-gradient(90deg, #16a085, #1abc9c); }
 .fill-orange { background: linear-gradient(90deg, #e67e22, #f39c12); }
 
-/* ── Cards ─────────────────────────────────────────────────── */
 .cards-section { padding: 5rem 0; }
 
 .cards-grid {
@@ -457,10 +444,8 @@ h1,h2,h3,h4 { line-height: 1.2; }
 
 .card-link:hover { gap: .7rem; }
 
-/* ── Nav Cards (index) ──────────────────────────────────────── */
 .nav-cards-section { padding: 5rem 0; }
 
-/* ── Info Sections ─────────────────────────────────────────── */
 .info-section { padding: 5rem 0; }
 
 .info-section:nth-child(even) { background: var(--dark-2); }
@@ -512,7 +497,6 @@ h1,h2,h3,h4 { line-height: 1.2; }
 
 .info-list li .icon { font-size: 1.1rem; flex-shrink: 0; margin-top: .1rem; }
 
-/* ── Diagram — Solar ───────────────────────────────────────── */
 .solar-diagram {
   display: flex;
   flex-direction: column;
@@ -555,7 +539,6 @@ h1,h2,h3,h4 { line-height: 1.2; }
   50%      { opacity: .6; transform: scale(.95); }
 }
 
-/* ── Solar animation (rays) ────────────────────────────────── */
 .sun-container {
   position: relative;
   width: 80px;
@@ -600,7 +583,6 @@ h1,h2,h3,h4 { line-height: 1.2; }
 
 @keyframes rayRotate { to { rotate: 360deg; } }
 
-/* ── Wind Turbine CSS ──────────────────────────────────────── */
 .turbine-showcase {
   display: flex;
   justify-content: center;
@@ -638,7 +620,6 @@ h1,h2,h3,h4 { line-height: 1.2; }
   font-weight: 500;
 }
 
-/* ── Chart Bars ────────────────────────────────────────────── */
 .chart-section { padding: 5rem 0; }
 
 .bar-chart {
@@ -696,7 +677,6 @@ h1,h2,h3,h4 { line-height: 1.2; }
   font-weight: 500;
 }
 
-/* ── Ranking List ──────────────────────────────────────────── */
 .ranking-list { }
 
 .ranking-item {
@@ -732,7 +712,6 @@ h1,h2,h3,h4 { line-height: 1.2; }
 .ranking-country { font-weight: 600; flex: 1; }
 .ranking-gw { font-weight: 700; color: var(--green); }
 
-/* ── Pros Cons ─────────────────────────────────────────────── */
 .pros-cons-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -761,7 +740,6 @@ h1,h2,h3,h4 { line-height: 1.2; }
   color: var(--gray);
 }
 
-/* ── Timeline ──────────────────────────────────────────────── */
 .timeline { position: relative; padding-left: 2rem; }
 
 .timeline::before {
@@ -799,7 +777,6 @@ h1,h2,h3,h4 { line-height: 1.2; }
 
 .timeline-text { color: var(--gray); font-size: .9rem; }
 
-/* ── Form ──────────────────────────────────────────────────── */
 .form-section { padding: 5rem 0; }
 
 .form-card {
@@ -868,7 +845,6 @@ select.form-control option { background: var(--dark-2); }
 .success-title { font-size: 1.5rem; font-weight: 700; color: var(--green); margin-bottom: .5rem; }
 .success-text { color: var(--gray); }
 
-/* ── Feature Boxes ─────────────────────────────────────────── */
 .feature-boxes {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -891,7 +867,6 @@ select.form-control option { background: var(--dark-2); }
 .feature-box .f-title { font-weight: 700; margin-bottom: .5rem; }
 .feature-box .f-text { color: var(--gray); font-size: .85rem; }
 
-/* ── Quote Block ───────────────────────────────────────────── */
 .quote-block {
   border-left: 4px solid var(--green);
   padding: 1.25rem 1.75rem;
@@ -902,14 +877,12 @@ select.form-control option { background: var(--dark-2); }
   color: var(--gray);
 }
 
-/* ── Two col text ──────────────────────────────────────────── */
 .text-two-col {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
 
-/* ── Goal Cards ────────────────────────────────────────────── */
 .goal-card {
   background: var(--card-bg);
   border: 1px solid var(--card-border);
@@ -931,7 +904,6 @@ select.form-control option { background: var(--dark-2); }
 .goal-title { font-size: 1.1rem; font-weight: 700; margin-bottom: .75rem; }
 .goal-text  { color: var(--gray); font-size: .9rem; }
 
-/* ── Footer ────────────────────────────────────────────────── */
 .footer {
   background: var(--dark-2);
   border-top: 1px solid var(--card-border);
@@ -973,7 +945,6 @@ select.form-control option { background: var(--dark-2); }
 .footer-bottom .credits { font-size: .8rem; color: var(--gray); }
 .footer-bottom .credits span { color: var(--green); }
 
-/* ── Curiosity Cards ───────────────────────────────────────── */
 .curiosity-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -995,7 +966,6 @@ select.form-control option { background: var(--dark-2); }
 .curiosity-card .c-title { font-size: 1rem; font-weight: 700; margin-bottom: .5rem; }
 .curiosity-card .c-text { color: var(--gray); font-size: .85rem; }
 
-/* ── Map States ────────────────────────────────────────────── */
 .states-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -1020,7 +990,6 @@ select.form-control option { background: var(--dark-2); }
 .state-name { font-weight: 700; font-size: .95rem; }
 .state-data { font-size: .8rem; color: var(--gray); }
 
-/* ── Scroll to top ─────────────────────────────────────────── */
 .scroll-top {
   position: fixed;
   bottom: 2rem;
@@ -1045,7 +1014,6 @@ select.form-control option { background: var(--dark-2); }
 .scroll-top.show { opacity: 1; pointer-events: auto; }
 .scroll-top:hover { transform: translateY(-3px); }
 
-/* ── Responsive ────────────────────────────────────────────── */
 @media (max-width: 1024px) {
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
