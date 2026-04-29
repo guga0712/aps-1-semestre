@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Energia Solar — Brasil Renovável</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta
+      name="description"
+      content="Energia solar no Brasil: como funciona, crescimento e estados com maior potencial solar."
+    />
+  </head>
+  <body>
+    <!-- ── Navbar ────────────────────────────────────────────── -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="nav-brand">
+          <span class="brand-icon">⚡</span>
+          <span>Brasil <span class="highlight-green">Renovável</span></span>
+        </a>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Início</a></li>
+          <li><a href="solar.html" class="nav-link">Solar</a></li>
+          <li><a href="eolica.html" class="nav-link">Eólica</a></li>
+          <li><a href="hidraulica.html" class="nav-link">Hidráulica</a></li>
+          <li><a href="outras.html" class="nav-link">Outras</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ── Hero ─────────────────────────────────────────────── -->
+    <section class="hero-inner solar">
+      <div class="container">
+        <span class="tag tag-yellow fade-in">Fonte Renovável</span>
+        <h1 class="hero-inner-title fade-in">
+          Energia <span class="highlight-yellow">Solar</span>
+        </h1>
+        <p class="hero-inner-desc fade-in">
+          O Brasil possui 40 GW de capacidade solar instalada e recebe uma das
+          maiores irradiações solares do planeta. A energia solar é a que mais
+          cresce no país.
+        </p>
+      </div>
+    </section>
+
+    <!-- ── Stats ─────────────────────────────────────────────── -->
+    <section class="stats-bar">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item fade-in">
+            <span
+              class="stat-number highlight-yellow"
+              data-count="40"
+              data-suffix=" GW"
+              >0</span
+            >
+            <span class="stat-label">Capacidade Instalada</span>
+          </div>
+          <div class="stat-item fade-in">
+            <span
+              class="stat-number highlight-green"
+              data-count="8.4"
+              data-suffix="%"
+              >0</span
+            >
+            <span class="stat-label">Da Matriz Elétrica</span>
+          </div>
+          <div class="stat-item fade-in">
+            <span
+              class="stat-number highlight-yellow"
+              data-count="2700"
+              data-suffix=" h/ano"
+              >0</span
+            >
+            <span class="stat-label">Irradiação Média</span>
+          </div>
+          <div class="stat-item fade-in">
+            <span
+              class="stat-number"
+              style="color: var(--yellow)"
+              data-count="10"
+              data-suffix="º"
+              >0</span
+            >
+            <span class="stat-label">Maior Mercado Solar Mundial</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Como Funciona ─────────────────────────────────────── -->
+    <section class="info-section" style="padding: 5rem 0">
+      <div class="container">
+        <div style="text-align: center; margin-bottom: 3.5rem" class="fade-in">
+          <span class="tag tag-yellow" style="margin-bottom: 1rem"
+            >Como Funciona</span
+          >
+          <h2 class="section-title">
+            O Caminho da <span class="highlight-yellow">Luz ao Fio</span>
+          </h2>
+          <p class="section-subtitle">
+            Da radiação solar até a tomada da sua casa — o processo em 5 etapas
+          </p>
+        </div>
+
+        <!-- Diagrama animado -->
+        <div class="solar-diagram fade-in" style="margin-bottom: 4rem">
+          <div class="diagram-row">
+            <div class="diagram-step">
+              <div class="sun-container" style="margin-bottom: 0.5rem">
+                <div class="sun"></div>
+                <div class="sun-ray"></div>
+                <div class="sun-ray"></div>
+                <div class="sun-ray"></div>
+                <div class="sun-ray"></div>
+                <div class="sun-ray"></div>
+                <div class="sun-ray"></div>
+                <div class="sun-ray"></div>
+                <div class="sun-ray"></div>
+              </div>
+              <div class="d-label">1. Radiação Solar</div>
+            </div>
+            <div class="diagram-arrow">→</div>
+            <div class="diagram-step">
+              <div class="d-icon">🔲</div>
+              <div class="d-label">2. Painel Fotovoltaico</div>
+            </div>
+            <div class="diagram-arrow">→</div>
+            <div class="diagram-step">
+              <div class="d-icon">⚡</div>
+              <div class="d-label">3. Corrente Contínua (CC)</div>
+            </div>
+            <div class="diagram-arrow">→</div>
+            <div class="diagram-step">
+              <div class="d-icon">🔄</div>
+              <div class="d-label">4. Inversor Solar</div>
+            </div>
+            <div class="diagram-arrow">→</div>
+            <div class="diagram-step">
+              <div class="d-icon">🏠</div>
+              <div class="d-label">5. Corrente Alternada (CA)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-grid">
+          <div class="info-image fade-in">
+            <img
+              src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80&auto=format&fit=crop"
+              alt="Painéis Solares"
+              loading="lazy"
+            />
+          </div>
+          <div class="info-content fade-in">
+            <h3 style="font-size: 1.5rem; margin-bottom: 1rem">
+              O Efeito <span class="highlight-yellow">Fotovoltaico</span>
+            </h3>
+            <p>
+              Quando fótons da luz solar colidem com os elétrons das células
+              fotovoltaicas (geralmente feitas de silício), esses elétrons
+              ganham energia e começam a se mover, criando uma corrente elétrica
+              contínua.
+            </p>
+            <p>
+              O inversor solar transforma essa corrente contínua em corrente
+              alternada (CA), o padrão usado na rede elétrica e nos equipamentos
+              domésticos.
+            </p>
+            <ul class="info-list">
+              <li>
+                <span class="icon">🔆</span
+                ><span
+                  >A eficiência dos painéis modernos varia de 20% a 23%</span
+                >
+              </li>
+              <li>
+                <span class="icon">🔋</span
+                ><span
+                  >Sistemas com baterias permitem armazenar energia para a
+                  noite</span
+                >
+              </li>
+              <li>
+                <span class="icon">♻️</span
+                ><span
+                  >Excedente pode ser injetado na rede elétrica (net
+                  metering)</span
+                >
+              </li>
+              <li>
+                <span class="icon">📅</span
+                ><span
+                  >Vida útil dos painéis: 25 a 30 anos com manutenção
+                  mínima</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Crescimento no Brasil ──────────────────────────────── -->
+    <section
+      class="chart-section"
+      style="background: var(--dark-2); padding: 5rem 0"
+    >
+      <div class="container">
+        <div style="text-align: center; margin-bottom: 3rem" class="fade-in">
+          <span class="tag tag-yellow" style="margin-bottom: 1rem"
+            >Crescimento</span
+          >
+          <h2 class="section-title">
+            Evolução da Capacidade
+            <span class="highlight-yellow">Solar</span> no Brasil
+          </h2>
+          <p class="section-subtitle">
+            Capacidade instalada em GW — 2018 a 2024
+          </p>
+        </div>
+
+        <div class="bar-chart fade-in">
+          <div class="bar-group">
+            <div
+              class="bar"
+              data-height="28px"
+              style="
+                background: linear-gradient(to top, #f39c12, #f1c40f);
+                height: 0;
+              "
+            >
+              <span class="bar-value highlight-yellow">2</span>
+            </div>
+            <span class="bar-label">2018</span>
+          </div>
+          <div class="bar-group">
+            <div
+              class="bar"
+              data-height="42px"
+              style="
+                background: linear-gradient(to top, #f39c12, #f1c40f);
+                height: 0;
+              "
+            >
+              <span class="bar-value highlight-yellow">3</span>
+            </div>
+            <span class="bar-label">2019</span>
+          </div>
+          <div class="bar-group">
+            <div
+              class="bar"
+              data-height="56px"
+              style="
+                background: linear-gradient(to top, #f39c12, #f1c40f);
+                height: 0;
+              "
+            >
+              <span class="bar-value highlight-yellow">7</span>
+            </div>
+            <span class="bar-label">2020</span>
+          </div>
+          <div class="bar-group">
+            <div
+              class="bar"
+              data-height="84px"
+              style="
+                background: linear-gradient(to top, #f39c12, #f1c40f);
+                height: 0;
+              "
+            >
+              <span class="bar-value highlight-yellow">13</span>
+            </div>
+            <span class="bar-label">2021</span>
+          </div>
+          <div class="bar-group">
+            <div
+              class="bar"
+              data-height="126px"
+              style="
+                background: linear-gradient(to top, #f39c12, #f1c40f);
+                height: 0;
+              "
+            >
+              <span class="bar-value highlight-yellow">24</span>
+            </div>
+            <span class="bar-label">2022</span>
+          </div>
+          <div class="bar-group">
+            <div
+              class="bar"
+              data-height="168px"
+              style="
+                background: linear-gradient(to top, #f39c12, #f1c40f);
+                height: 0;
+              "
+            >
+              <span class="bar-value highlight-yellow">35</span>
+            </div>
+            <span class="bar-label">2023</span>
+          </div>
+          <div class="bar-group">
+            <div
+              class="bar"
+              data-height="196px"
+              style="
+                background: linear-gradient(
+                  to top,
+                  var(--yellow-dark),
+                  #fff176
+                );
+                height: 0;
+              "
+            >
+              <span class="bar-value" style="color: #fff176; font-size: 0.9rem"
+                >40 GW</span
+              >
+            </div>
+            <span
+              class="bar-label"
+              style="color: var(--yellow); font-weight: 700"
+              >2024</span
+            >
+          </div>
+        </div>
+
+        <div
+          class="quote-block fade-in"
+          style="margin-top: 3rem; max-width: 700px; margin-inline: auto"
+        >
+          Crescimento de
+          <strong style="color: var(--yellow)">+1.900%</strong> em apenas 6 anos
+          — a energia solar passou de uma curiosidade tecnológica a um pilar
+          essencial da matriz energética brasileira.
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Estados com maior potencial ───────────────────────── -->
+    <section class="info-section" style="padding: 5rem 0">
+      <div class="container">
+        <div style="text-align: center; margin-bottom: 3rem" class="fade-in">
+          <span class="tag tag-yellow" style="margin-bottom: 1rem"
+            >Potencial Solar</span
+          >
+          <h2 class="section-title">
+            Estados com Maior <span class="highlight-yellow">Irradiação</span>
+          </h2>
+          <p class="section-subtitle">
+            Média de irradiação solar global horizontal (GHI) em kWh/m²/dia
+          </p>
+        </div>
+
+        <div class="states-grid fade-in">
+          <div class="state-card">
+            <span class="state-flag">🥇</span>
+            <div class="state-info">
+              <div class="state-name">Bahia</div>
+              <div class="state-data" style="color: var(--yellow)">
+                6,5 kWh/m²/dia | 1.200+ MW instalados
+              </div>
+            </div>
+          </div>
+          <div class="state-card">
+            <span class="state-flag">🥈</span>
+            <div class="state-info">
+              <div class="state-name">Minas Gerais</div>
+              <div class="state-data" style="color: var(--yellow)">
+                6,3 kWh/m²/dia | 2.500+ MW instalados
+              </div>
+            </div>
+          </div>
+          <div class="state-card">
+            <span class="state-flag">🥉</span>
+            <div class="state-info">
+              <div class="state-name">Piauí</div>
+              <div class="state-data" style="color: var(--yellow)">
+                6,4 kWh/m²/dia | Grande potencial
+              </div>
+            </div>
+          </div>
+          <div class="state-card">
+            <span class="state-flag">⭐</span>
+            <div class="state-info">
+              <div class="state-name">São Paulo</div>
+              <div class="state-data" style="color: var(--yellow)">
+                5,5 kWh/m²/dia | Maior mercado GD
+              </div>
+            </div>
+          </div>
+          <div class="state-card">
+            <span class="state-flag">⭐</span>
+            <div class="state-info">
+              <div class="state-name">Mato Grosso</div>
+              <div class="state-data" style="color: var(--yellow)">
+                6,1 kWh/m²/dia | Crescimento acelerado
+              </div>
+            </div>
+          </div>
+          <div class="state-card">
+            <span class="state-flag">⭐</span>
+            <div class="state-info">
+              <div class="state-name">Rio Grande do Norte</div>
+              <div class="state-data" style="color: var(--yellow)">
+                6,2 kWh/m²/dia | Energia solar + eólica
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Progress dos maiores estados -->
+        <div class="progress-card fade-in" style="margin-top: 3rem">
+          <h3 style="margin-bottom: 1.5rem">
+            Participação por Região na Geração Solar
+          </h3>
+          <div class="progress-item">
+            <div class="progress-header">
+              <span class="progress-name">🌵 Nordeste</span
+              ><span class="progress-pct" style="color: var(--yellow)"
+                >38%</span
+              >
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill fill-yellow" data-width="38%"></div>
+            </div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-header">
+              <span class="progress-name">🏙️ Sudeste</span
+              ><span class="progress-pct" style="color: var(--yellow)"
+                >32%</span
+              >
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill fill-yellow" data-width="32%"></div>
+            </div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-header">
+              <span class="progress-name">🌾 Centro-Oeste</span
+              ><span class="progress-pct" style="color: var(--yellow)"
+                >18%</span
+              >
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill fill-yellow" data-width="18%"></div>
+            </div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-header">
+              <span class="progress-name">🌲 Sul</span
+              ><span class="progress-pct" style="color: var(--yellow)"
+                >10%</span
+              >
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill fill-yellow" data-width="10%"></div>
+            </div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-header">
+              <span class="progress-name">🌳 Norte</span
+              ><span class="progress-pct" style="color: var(--yellow)">2%</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill fill-yellow" data-width="2%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Tipos de instalação ────────────────────────────────── -->
+    <section style="padding: 5rem 0; background: var(--dark-2)">
+      <div class="container">
+        <div style="text-align: center; margin-bottom: 3rem" class="fade-in">
+          <h2 class="section-title">
+            Modalidades de <span class="highlight-yellow">Geração Solar</span>
+          </h2>
+        </div>
+        <div class="feature-boxes">
+          <div class="feature-box fade-in">
+            <div class="f-icon">🏠</div>
+            <div class="f-title">Geração Distribuída</div>
+            <div class="f-text">
+              Painéis em residências, comércios e indústrias. Mais de 3 milhões
+              de unidades no Brasil em 2024.
+            </div>
+          </div>
+          <div class="feature-box fade-in">
+            <div class="f-icon">🏭</div>
+            <div class="f-title">Usina Solar Central</div>
+            <div class="f-text">
+              Grandes parques solares com centenas de MW de capacidade,
+              conectados diretamente à rede de transmissão.
+            </div>
+          </div>
+          <div class="feature-box fade-in">
+            <div class="f-icon">💧</div>
+            <div class="f-title">Flutuante (FPV)</div>
+            <div class="f-text">
+              Painéis instalados sobre reservatórios de usinas hidrelétricas,
+              reduzindo evaporação e otimizando espaço.
+            </div>
+          </div>
+          <div class="feature-box fade-in">
+            <div class="f-icon">🤝</div>
+            <div class="f-title">Energia Compartilhada</div>
+            <div class="f-text">
+              Cooperativas e condomínios que geram coletivamente e compartilham
+              os créditos de energia entre os participantes.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Footer ─────────────────────────────────────────────── -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="brand">
+              <span class="brand-icon">⚡</span> Brasil
+              <span class="highlight-green" style="margin-left: 0.3rem"
+                >Renovável</span
+              >
+            </div>
+            <p>
+              Portal educativo sobre as fontes de energia renovável do Brasil.
+              Conteúdo baseado em dados oficiais da ANEEL, ONS, ABSOLAR e
+              ABEEÓLICA.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h4>Páginas</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Início</a></li>
+              <li><a href="solar.html">Energia Solar</a></li>
+              <li><a href="eolica.html">Energia Eólica</a></li>
+              <li><a href="hidraulica.html">Energia Hidráulica</a></li>
+              <li><a href="outras.html">Biomassa & Outras</a></li>
+              <li><a href="futuro.html">O Futuro</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Fontes</h4>
+            <ul class="footer-links">
+              <li><a href="#">ABSOLAR 2024</a></li>
+              <li><a href="#">ANEEL BIG</a></li>
+              <li><a href="#">IRENA</a></li>
+              <li><a href="#">IEA Solar Report</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Bibliografia</h4>
+            <ul class="footer-bibliography">
+              <li>
+                ABSOLAR. Panorama da Energia Solar Fotovoltaica no Brasil —
+                2024.
+              </li>
+              <li>ANEEL. Banco de Informações de Geração — BIG, 2024.</li>
+              <li>IEA. Solar PV Global Supply Chains, 2024.</li>
+              <li>IRENA. Renewable Power Generation Costs, 2024.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2024 Brasil Renovável — Todos os direitos reservados</p>
+          <div class="credits">
+            Desenvolvido com <span>♥</span> para o futuro sustentável do Brasil
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button class="scroll-top" aria-label="Voltar ao topo">↑</button>
+    <script src="js/main.js"></script>
+  </body>
+</html>

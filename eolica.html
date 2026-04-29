@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Energia Eólica — Brasil Renovável</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta
+      name="description"
+      content="Energia eólica no Brasil: Nordeste lidera o ranque mundial, com destaque para Ceará e Rio Grande do Norte."
+    />
+  </head>
+  <body>
+    <!-- ── Navbar ────────────────────────────────────────────── -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="nav-brand">
+          <span class="brand-icon">⚡</span>
+          <span>Brasil <span class="highlight-green">Renovável</span></span>
+        </a>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Início</a></li>
+          <li><a href="solar.html" class="nav-link">Solar</a></li>
+          <li><a href="eolica.html" class="nav-link">Eólica</a></li>
+          <li><a href="hidraulica.html" class="nav-link">Hidráulica</a></li>
+          <li><a href="outras.html" class="nav-link">Outras</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ── Hero ─────────────────────────────────────────────── -->
+    <section class="hero-inner eolica">
+      <div class="container">
+        <span class="tag tag-green fade-in">Fonte Renovável</span>
+        <h1 class="hero-inner-title fade-in">
+          Energia <span class="highlight-green">Eólica</span>
+        </h1>
+        <p class="hero-inner-desc fade-in">
+          O Brasil é um dos maiores produtores de energia eólica do mundo, com
+          30 GW de capacidade instalada. Os ventos do Nordeste são entre os mais
+          constantes do planeta.
+        </p>
+      </div>
+    </section>
+
+    <!-- ── Stats ─────────────────────────────────────────────── -->
+    <section class="stats-bar">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item fade-in">
+            <span
+              class="stat-number highlight-green"
+              data-count="30"
+              data-suffix=" GW"
+              >0</span
+            >
+            <span class="stat-label">Capacidade Instalada</span>
+          </div>
+          <div class="stat-item fade-in">
+            <span
+              class="stat-number"
+              style="color: var(--green)"
+              data-count="12.8"
+              data-suffix="%"
+              >0</span
+            >
+            <span class="stat-label">Da Matriz Elétrica</span>
+          </div>
+          <div class="stat-item fade-in">
+            <span
+              class="stat-number highlight-yellow"
+              data-count="879"
+              data-suffix=""
+              >0</span
+            >
+            <span class="stat-label">Parques Eólicos</span>
+          </div>
+          <div class="stat-item fade-in">
+            <span
+              class="stat-number highlight-green"
+              data-count="9500"
+              data-suffix=""
+              >0</span
+            >
+            <span class="stat-label">Aerogeradores Instalados</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Turbina Eólica CSS Puro ────────────────────────────── -->
+    <section style="padding: 5rem 0; background: var(--dark-2)">
+      <div class="container">
+        <div style="text-align: center; margin-bottom: 3rem" class="fade-in">
+          <span class="tag tag-green" style="margin-bottom: 1rem"
+            >Animação CSS</span
+          >
+          <h2 class="section-title">
+            Como Funciona a <span class="highlight-green">Turbina Eólica</span>
+          </h2>
+          <p class="section-subtitle">
+            Turbinas em diferentes velocidades de vento — animadas em CSS puro
+          </p>
+        </div>
+
+        <!-- TURBINA EM CSS PURO -->
+        <div class="turbine-showcase fade-in">
+          <!-- Turbina lenta -->
+          <div class="turbine-wrap">
+            <div class="turbine-svg-container">
+              <svg viewBox="0 0 140 320" xmlns="http://www.w3.org/2000/svg">
+                <!-- Torre -->
+                <polygon points="62,310 78,310 74,120 66,120" fill="#90a4ae" />
+                <!-- Nacele -->
+                <ellipse cx="70" cy="115" rx="16" ry="10" fill="#b0bec5" />
+                <!-- Blades Group (animado) -->
+                <g class="turbine-blades slow" transform-origin="70 110">
+                  <!-- Blade 1 (para cima) -->
+                  <ellipse
+                    cx="70"
+                    cy="60"
+                    rx="7"
+                    ry="52"
+                    fill="white"
+                    opacity=".95"
+                  />
+                  <!-- Blade 2 (baixo-direita) -->
+                  <ellipse
+                    cx="70"
+                    cy="60"
+                    rx="7"
+                    ry="52"
+                    fill="white"
+                    opacity=".95"
+                    transform="rotate(120,70,110)"
+                  />
+                  <!-- Blade 3 (baixo-esquerda) -->
+                  <ellipse
+                    cx="70"
+                    cy="60"
+                    rx="7"
+                    ry="52"
+                    fill="white"
+                    opacity=".95"
+                    transform="rotate(240,70,110)"
+                  />
+                </g>
+                <!-- Hub -->
+                <circle cx="70" cy="110" r="8" fill="#607d8b" />
+              </svg>
+            </div>
+            <div class="turbine-label">
+              Vento Fraco<br /><span
+                style="color: var(--gray); font-size: 0.75rem"
+                >~7s/volta</span
+              >
+            </div>
+          </div>
+
+          <!-- Turbina normal -->
+          <div class="turbine-wrap">
+            <div class="turbine-svg-container" style="width: 180px">
+              <svg viewBox="0 0 140 320" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="62,310 78,310 74,120 66,120" fill="#90a4ae" />
+                <ellipse cx="70" cy="115" rx="16" ry="10" fill="#b0bec5" />
+                <g class="turbine-blades" transform-origin="70 110">
+                  <ellipse
+                    cx="70"
+                    cy="60"
+                    rx="7"
+                    ry="52"
+                    fill="white"
+                    opacity=".95"
+                  />
+                  <ellipse
+                    cx="70"
+                    cy="60"
+                    rx="7"
+                    ry="52"
+                    fill="white"
+                    opacity=".95"
+                    transform="rotate(120,70,110)"
+                  />
+                  <ellipse
+                    cx="70"
+                    cy="60"
+                    rx="7"
+                    ry="52"
+                    fill="white"
+                    opacity=".95"
+                    transform="rotate(240,70,110)"
+                  />
+                </g>
+                <circle cx="70" cy="110" r="8" fill="#607d8b" />
+              </svg>
+            </div>
+            <div
+              class="turbine-label"
+              style="color: var(--green); font-weight: 600"
+            >
+              Vento Ideal<br />
+              <span style="color: var(--gray); font-size: 0.75rem"
+                >~4s/volta | Geração plena</span
+              >
+            </div>
+          </div>
+
+          <!-- Turbina rápida -->
+          <div class="turbine-wrap">
+            <div class="turbine-svg-container">
+              <svg viewBox="0 0 140 320" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="62,310 78,310 74,120 66,120" fill="#90a4ae" />
+                <ellipse cx="70" cy="115" rx="16" ry="10" fill="#b0bec5" />
+                <g class="turbine-blades fast" transform-origin="70 110">
+                  <ellipse
+                    cx="70"
+                    cy="60"
+                    rx="7"
+                    ry="52"
+                    fill="#a5d6a7"
+                    opacity=".95"
+                  />
+                  <ellipse
+                    cx="70"
+                    cy="60"
+                    rx="7"
+                    ry="52"
+                    fill="#a5d6a7"
+                    opacity=".95"
+                    transform="rotate(120,70,110)"
+                  />
+                  <ellipse
+                    cx="70"
+                    cy="60"
+                    rx="7"
+                    ry="52"
+                    fill="#a5d6a7"
+                    opacity=".95"
+                    transform="rotate(240,70,110)"
+                  />
+                </g>
+                <circle cx="70" cy="110" r="8" fill="#607d8b" />
+              </svg>
+            </div>
+            <div class="turbine-label">
+              Vento Forte<br /><span
+                style="color: var(--gray); font-size: 0.75rem"
+                >~2.5s/volta</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Como funciona texto -->
+        <div class="info-grid" style="margin-top: 4rem">
+          <div class="info-content fade-in">
+            <h3 style="font-size: 1.5rem; margin-bottom: 1rem">
+              Do Vento à <span class="highlight-green">Eletricidade</span>
+            </h3>
+            <p>
+              O vento faz as pás do aerogerador girarem. Esse movimento mecânico
+              é transferido a um gerador elétrico, que converte a energia
+              cinética em energia elétrica por meio do eletromagnetismo.
+            </p>
+            <p>
+              Um único aerogerador moderno pode chegar a 6 MW de capacidade —
+              energia suficiente para abastecer mais de 3.000 residências.
+            </p>
+            <ul class="info-list">
+              <li>
+                <span class="icon">🌬️</span
+                ><span>Velocidade mínima de vento para gerar: ~3 m/s</span>
+              </li>
+              <li>
+                <span class="icon">⚡</span
+                ><span>Capacidade por turbina: 2 a 6 MW (moderna)</span>
+              </li>
+              <li>
+                <span class="icon">📐</span
+                ><span>Diâmetro das pás: até 170 metros</span>
+              </li>
+              <li>
+                <span class="icon">🏔️</span
+                ><span>Torres chegam a 120m de altura no Brasil</span>
+              </li>
+              <li>
+                <span class="icon">♻️</span
+                ><span>Vida útil: 20 a 25 anos com manutenção periódica</span>
+              </li>
+            </ul>
+          </div>
+          <div class="info-image fade-in">
+            <img
+              src="https://images.unsplash.com/photo-1548337138-e87d889cc369?w=800&q=80&auto=format&fit=crop"
+              alt="Parque Eólico"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Destaque Nordeste ───────────────────────────────────── -->
+    <section class="info-section" style="padding: 5rem 0">
+      <div class="container">
+        <div style="text-align: center; margin-bottom: 3rem" class="fade-in">
+          <span class="tag tag-green" style="margin-bottom: 1rem"
+            >Epicentro Eólico</span
+          >
+          <h2 class="section-title">
+            O <span class="highlight-green">Nordeste</span> que Sopra o Mundo
+          </h2>
+          <p class="section-subtitle">
+            A região concentra mais de 80% da capacidade eólica instalada no
+            Brasil
+          </p>
+        </div>
+
+        <div class="progress-card fade-in" style="margin-bottom: 3rem">
+          <h3 style="margin-bottom: 1.5rem">
+            Capacidade Eólica por Estado (GW)
+          </h3>
+          <div class="progress-item">
+            <div class="progress-header">
+              <span class="progress-name">🌵 Rio Grande do Norte</span
+              ><span class="progress-pct highlight-green">5,8 GW</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill fill-green" data-width="80%"></div>
+            </div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-header">
+              <span class="progress-name">🌵 Bahia</span
+              ><span class="progress-pct highlight-green">5,1 GW</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill fill-green" data-width="71%"></div>
+            </div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-header">
+              <span class="progress-name">🌵 Ceará</span
+              ><span class="progress-pct highlight-green">4,6 GW</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill fill-green" data-width="64%"></div>
+            </div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-header">
+              <span class="progress-name">🌵 Piauí</span
+              ><span class="progress-pct highlight-green">3,9 GW</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill fill-green" data-width="54%"></div>
+            </div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-header">
+              <span class="progress-name">🌵 Maranhão</span
+              ><span class="progress-pct highlight-green">2,1 GW</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill fill-green" data-width="29%"></div>
+            </div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-header">
+              <span class="progress-name">🌿 Rio Grande do Sul</span
+              ><span class="progress-pct highlight-green">3,8 GW</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill fill-green" data-width="53%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-grid">
+          <div class="info-image fade-in">
+            <img
+              src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800&q=80&auto=format&fit=crop"
+              alt="Energia Eólica Nordeste"
+              loading="lazy"
+            />
+          </div>
+          <div class="info-content fade-in">
+            <h3 style="font-size: 1.4rem; margin-bottom: 1rem">
+              Por que o <span class="highlight-green">Nordeste</span> é ideal?
+            </h3>
+            <p>
+              Os ventos que sopram do oceano Atlântico para o continente criam
+              correntes de ar extremamente regulares e intensas sobre o litoral
+              e o interior do Nordeste, especialmente entre os meses de julho e
+              dezembro.
+            </p>
+            <ul class="info-list">
+              <li>
+                <span class="icon">💨</span
+                ><span>Velocidade média do vento: 8 a 10 m/s (excelente)</span>
+              </li>
+              <li>
+                <span class="icon">🌊</span
+                ><span>Ventos alísios: constância acima de 90% do tempo</span>
+              </li>
+              <li>
+                <span class="icon">🏜️</span
+                ><span
+                  >Terreno plano do sertão facilita instalação de torres</span
+                >
+              </li>
+              <li>
+                <span class="icon">💡</span
+                ><span>Produção de energia complementa hidráulica na seca</span>
+              </li>
+              <li>
+                <span class="icon">👷</span
+                ><span>Mais de 100.000 empregos gerados na região</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Ranking Mundial ────────────────────────────────────── -->
+    <section style="padding: 5rem 0; background: var(--dark-2)">
+      <div class="container">
+        <div style="text-align: center; margin-bottom: 3rem" class="fade-in">
+          <span class="tag tag-green" style="margin-bottom: 1rem"
+            >Cenário Global</span
+          >
+          <h2 class="section-title">
+            Brasil no
+            <span class="highlight-green">Ranking Mundial</span> Eólico
+          </h2>
+          <p class="section-subtitle">
+            Capacidade instalada acumulada em GW — 2024
+          </p>
+        </div>
+
+        <div
+          class="ranking-list fade-in"
+          style="max-width: 680px; margin: 0 auto"
+        >
+          <div class="ranking-item">
+            <div class="ranking-pos pos-1">1</div>
+            <span class="ranking-country">🇨🇳 China</span>
+            <span class="ranking-gw">441 GW</span>
+          </div>
+          <div class="ranking-item">
+            <div class="ranking-pos pos-2">2</div>
+            <span class="ranking-country">🇺🇸 Estados Unidos</span>
+            <span class="ranking-gw">147 GW</span>
+          </div>
+          <div class="ranking-item">
+            <div class="ranking-pos pos-3">3</div>
+            <span class="ranking-country">🇩🇪 Alemanha</span>
+            <span class="ranking-gw">66 GW</span>
+          </div>
+          <div class="ranking-item">
+            <div class="ranking-pos pos-other">4</div>
+            <span class="ranking-country">🇮🇳 Índia</span>
+            <span class="ranking-gw">46 GW</span>
+          </div>
+          <div
+            class="ranking-item"
+            style="
+              border: 1px solid rgba(46, 204, 113, 0.4);
+              background: rgba(46, 204, 113, 0.05);
+            "
+          >
+            <div
+              class="ranking-pos pos-other"
+              style="background: var(--green); color: var(--dark)"
+            >
+              5
+            </div>
+            <span
+              class="ranking-country"
+              style="color: var(--green); font-weight: 700"
+              >🇧🇷 Brasil</span
+            >
+            <span class="ranking-gw" style="color: var(--green)">30 GW ★</span>
+          </div>
+          <div class="ranking-item">
+            <div class="ranking-pos pos-other">6</div>
+            <span class="ranking-country">🇪🇸 Espanha</span>
+            <span class="ranking-gw">29 GW</span>
+          </div>
+          <div class="ranking-item">
+            <div class="ranking-pos pos-other">7</div>
+            <span class="ranking-country">🇬🇧 Reino Unido</span>
+            <span class="ranking-gw">28 GW</span>
+          </div>
+          <div class="ranking-item">
+            <div class="ranking-pos pos-other">8</div>
+            <span class="ranking-country">🇫🇷 França</span>
+            <span class="ranking-gw">22 GW</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Curiosidades CE e RN ───────────────────────────────── -->
+    <section style="padding: 5rem 0">
+      <div class="container">
+        <div style="text-align: center; margin-bottom: 3rem" class="fade-in">
+          <span class="tag tag-yellow" style="margin-bottom: 1rem"
+            >Curiosidades</span
+          >
+          <h2 class="section-title">
+            Ceará & Rio Grande do Norte:
+            <span class="highlight-green">Gigantes Eólicos</span>
+          </h2>
+        </div>
+
+        <div class="curiosity-grid">
+          <div
+            class="curiosity-card fade-in"
+            style="border-left-color: var(--green)"
+          >
+            <div class="c-icon">🌬️</div>
+            <div class="c-title">O Vento que Não Para (RN)</div>
+            <div class="c-text">
+              O Rio Grande do Norte tem ventos com velocidade média de 9,5 m/s —
+              entre os mais constantes do mundo. O fator de capacidade das
+              turbinas chega a 45%, contra 25% em países europeus.
+            </div>
+          </div>
+          <div class="curiosity-card fade-in">
+            <div class="c-icon">🏆</div>
+            <div class="c-title">1º Parque Eólico do Brasil (CE)</div>
+            <div class="c-text">
+              O Parque Eólico de Taíba, em São Gonçalo do Amarante (CE), foi o
+              primeiro do Brasil, inaugurado em 1999. Hoje o estado tem mais de
+              300 parques eólicos em operação.
+            </div>
+          </div>
+          <div
+            class="curiosity-card fade-in"
+            style="border-left-color: var(--blue)"
+          >
+            <div class="c-icon">🌊</div>
+            <div class="c-title">Eólica Offshore no Horizonte</div>
+            <div class="c-text">
+              O Brasil planeja instalar parques eólicos no mar, começando pelo
+              litoral do Ceará e RN. O potencial offshore estimado é de mais de
+              700 GW — suficiente para 3x o consumo atual do país.
+            </div>
+          </div>
+          <div class="curiosity-card fade-in">
+            <div class="c-icon">🤝</div>
+            <div class="c-title">Royalties para Municípios</div>
+            <div class="c-text">
+              Municípios que hospedam parques eólicos recebem royalties. Cidades
+              como Lagoa dos Ventos (PI) transformaram sua economia
+              completamente graças à energia eólica.
+            </div>
+          </div>
+          <div
+            class="curiosity-card fade-in"
+            style="border-left-color: var(--yellow)"
+          >
+            <div class="c-icon">📉</div>
+            <div class="c-title">Preço mais barato do mundo</div>
+            <div class="c-text">
+              Em leilões de energia elétrica, o preço da eólica no Nordeste
+              chegou a R$ 49/MWh — um dos mais baratos do mundo, competindo com
+              térmicas a gás e carvão.
+            </div>
+          </div>
+          <div class="curiosity-card fade-in">
+            <div class="c-icon">🌍</div>
+            <div class="c-title">Hidrogênio Verde</div>
+            <div class="c-text">
+              Ceará e RN são candidatos a exportar hidrogênio verde — produzido
+              com energia eólica — para a Europa. O Estado do Ceará já assinou
+              MoUs com países europeus para esse fim.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Footer ─────────────────────────────────────────────── -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="brand">
+              <span class="brand-icon">⚡</span> Brasil
+              <span class="highlight-green" style="margin-left: 0.3rem"
+                >Renovável</span
+              >
+            </div>
+            <p>
+              Portal educativo sobre as fontes de energia renovável do Brasil.
+              Conteúdo baseado em dados oficiais da ANEEL, ONS, ABSOLAR e
+              ABEEÓLICA.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h4>Páginas</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Início</a></li>
+              <li><a href="solar.html">Energia Solar</a></li>
+              <li><a href="eolica.html">Energia Eólica</a></li>
+              <li><a href="hidraulica.html">Energia Hidráulica</a></li>
+              <li><a href="outras.html">Biomassa & Outras</a></li>
+              <li><a href="futuro.html">O Futuro</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Fontes</h4>
+            <ul class="footer-links">
+              <li><a href="#">ABEEÓLICA 2024</a></li>
+              <li><a href="#">GWEC Global Wind Report</a></li>
+              <li><a href="#">ANEEL</a></li>
+              <li><a href="#">ONS</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Bibliografia</h4>
+            <ul class="footer-bibliography">
+              <li>ABEEÓLICA. Boletim Anual de Geração Eólica — 2024.</li>
+              <li>
+                GWEC. Global Wind Report 2024. Global Wind Energy Council.
+              </li>
+              <li>ANEEL. Banco de Informações de Geração — BIG, 2024.</li>
+              <li>IRENA. Renewable Energy Statistics 2024.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2024 Brasil Renovável — Todos os direitos reservados</p>
+          <div class="credits">
+            Desenvolvido com <span>♥</span> para o futuro sustentável do Brasil
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button class="scroll-top" aria-label="Voltar ao topo">↑</button>
+    <script src="js/main.js"></script>
+  </body>
+</html>

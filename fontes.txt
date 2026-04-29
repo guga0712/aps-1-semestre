@@ -1,0 +1,193 @@
+================================================================
+  FONTES — SITE "ENERGIAS RENOVÁVEIS NO BRASIL"
+================================================================
+
+AVISO: Os dados foram usados com base no conhecimento de
+treinamento do modelo (corte agosto/2025, referência 2023–2024).
+Recomenda-se verificar os números nos sites abaixo, pois
+alguns valores podem ter sido atualizados.
+
+----------------------------------------------------------------
+1. MATRIZ ELÉTRICA GERAL
+   (83% renovável, participação de cada fonte)
+----------------------------------------------------------------
+Órgão: ONS — Operador Nacional do Sistema Elétrico
+Site:  https://www.ons.org.br/paginas/resultados-da-operacao/historico-da-operacao/geracao_energia.aspx
+
+Órgão: ANEEL — Banco de Informações de Geração (BIG)
+Site:  https://www.aneel.gov.br/capacidade-de-geracao
+
+Órgão: EPE — Balanço Energético Nacional (BEN)
+Site:  https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/balanco-energetico-nacional
+
+----------------------------------------------------------------
+2. ENERGIA SOLAR
+   (40 GW instalados, crescimento, geração distribuída,
+    10º mercado mundial, irradiação por estado)
+----------------------------------------------------------------
+Órgão: ABSOLAR — Associação Brasileira de Energia Solar Fotovoltaica
+Site:  https://www.absolar.org.br/mercado/infografico/
+
+Órgão: ANEEL — BIG (filtro: solar fotovoltaica)
+Site:  https://www.aneel.gov.br/capacidade-de-geracao
+
+Órgão: IEA PVPS — Snapshot of Global PV Markets (relatório anual)
+Site:  https://iea-pvps.org/snapshot-reports/snapshot-2024/
+
+Órgão: IRENA — Renewable Power Generation Costs
+Site:  https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023
+
+----------------------------------------------------------------
+3. ENERGIA EÓLICA
+   (30 GW, 879 parques, 9.500 aerogeradores, ranking mundial,
+    capacidade por estado, preço R$49/MWh em leilão)
+----------------------------------------------------------------
+Órgão: ABEEÓLICA — Associação Brasileira de Energia Eólica
+Site:  https://abeeolica.org.br/dados-abeeolica/
+
+Órgão: GWEC — Global Wind Energy Council (ranking mundial)
+Site:  https://gwec.net/global-wind-report/
+
+Órgão: ANEEL — Histórico de Leilões de Energia (preços)
+Site:  https://www.aneel.gov.br/leiloes-de-energia
+
+Órgão: ANEEL — BIG (filtro: eólica, por estado)
+Site:  https://www.aneel.gov.br/capacidade-de-geracao
+
+----------------------------------------------------------------
+4. ENERGIA HIDRÁULICA
+   (109 GW, 60% da matriz, 1.463 usinas, 3º maior produtor)
+----------------------------------------------------------------
+Órgão: ANEEL — BIG (filtro: hidráulica)
+Site:  https://www.aneel.gov.br/capacidade-de-geracao
+
+Órgão: ONS — Geração hidráulica por subsistema
+Site:  https://www.ons.org.br
+
+Órgão: IRENA — Hydropower (ranking mundial)
+Site:  https://www.irena.org/Data/Downloads/IRENASTAT
+
+----------------------------------------------------------------
+5. USINA DE ITAIPU
+   (14.000 MW, recorde 103,1 TWh em 2016, 15% da demanda BR)
+----------------------------------------------------------------
+Órgão: Itaipu Binacional — dados oficiais de geração
+Site:  https://www.itaipu.gov.br/energia/geracao-de-energia
+
+Órgão: Itaipu — Relatório de Sustentabilidade 2023
+Site:  https://www.itaipu.gov.br/sala-de-imprensa/publicacoes
+
+----------------------------------------------------------------
+6. USINA DE BELO MONTE
+   (11.233 MW, 3ª maior do mundo, 40 milhões de pessoas)
+----------------------------------------------------------------
+Órgão: Norte Energia S.A. — operadora oficial
+Site:  https://www.norteenergiasa.com.br/pt-br/usina
+
+Órgão: ANEEL — BIG (busca: "Belo Monte")
+Site:  https://www.aneel.gov.br/capacidade-de-geracao
+
+----------------------------------------------------------------
+7. BIOMASSA E ETANOL DE CANA-DE-AÇÚCAR
+   (27 bilhões de litros/ano, 2º maior produtor mundial,
+    Proálcool 1975, comparativo cana x milho x beterraba)
+----------------------------------------------------------------
+Órgão: UNICA — União da Indústria de Cana-de-Açúcar
+Site:  https://unicadata.com.br/
+
+Órgão: MAPA — Painel de Biocombustíveis
+Site:  https://www.gov.br/agricultura/pt-br/assuntos/bioenergia/biocombustiveis
+
+Órgão: RFA — Renewable Fuels Association (comparativo com EUA)
+Site:  https://ethanolrfa.org/statistics/annual-ethanol-production/
+
+Órgão: CONAB — Acompanhamento da safra de cana-de-açúcar
+Site:  https://www.conab.gov.br/info-agro/safras/cana
+
+----------------------------------------------------------------
+8. PEQUENAS CENTRAIS HIDRELÉTRICAS (PCHs)
+   (850 usinas, ~8.000 MW)
+----------------------------------------------------------------
+Órgão: ANEEL — BIG (filtro por tipo: PCH)
+Site:  https://www.aneel.gov.br/capacidade-de-geracao
+
+Órgão: ABRAPCH — Associação Brasileira de PCH e CGH
+Site:  https://abrapch.org.br/
+
+----------------------------------------------------------------
+9. BRASIL NO RANKING MUNDIAL
+   (Top 5 eólica, 2º etanol, 3º hidráulica, 10º solar)
+----------------------------------------------------------------
+Órgão: IRENA — Renewable Capacity Statistics (planilha gratuita)
+Site:  https://www.irena.org/Data/Downloads/IRENASTAT
+
+Órgão: GWEC — Global Wind Report (ranking eólico)
+Site:  https://gwec.net/global-wind-report/
+
+Órgão: IEA — World Energy Outlook (panorama global)
+Site:  https://www.iea.org/reports/world-energy-outlook-2024
+
+----------------------------------------------------------------
+10. METAS 2030 E 2050
+    (50% redução CO₂, 90% renovável, neutralidade de carbono,
+     100 GW nova capacidade, restauração florestal)
+----------------------------------------------------------------
+Órgão: MMA — NDC atualizada do Brasil (COP27, 2022)
+Site:  https://www.gov.br/mma/pt-br/assuntos/clima/ndc
+
+Órgão: EPE — Plano Nacional de Energia 2050
+Site:  https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/Plano-Nacional-de-Energia-2050
+
+Órgão: UNFCCC — NDC Registry (versão oficial depositada)
+Site:  https://unfccc.int/NDCREG
+
+Órgão: IRENA — World Energy Transitions Outlook 2024
+Site:  https://www.irena.org/Publications/2024/Mar/World-Energy-Transitions-Outlook-2024
+
+Órgão: IEA — Relatório de Energia Limpa por País (Brasil)
+Site:  https://www.iea.org/countries/brazil
+
+----------------------------------------------------------------
+11. HIDROGÊNIO VERDE E OFFSHORE
+    (700 GW potencial offshore, exportações para Europa)
+----------------------------------------------------------------
+Órgão: EPE — Estudo sobre Hidrogênio Verde no Brasil
+Site:  https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/hidrogenio-verde
+
+Órgão: ABEEÓLICA — Potencial Eólico Offshore
+Site:  https://abeeolica.org.br/dados-abeeolica/
+
+Órgão: GWEC — Offshore Wind Report
+Site:  https://gwec.net/global-offshore-wind-report/
+
+----------------------------------------------------------------
+12. ENERGIA DAS MARÉS E ONDAS
+    (Projeto WavEnergy, COPPE/UFRJ, potencial 100 GW)
+----------------------------------------------------------------
+Órgão: COPPE/UFRJ — Laboratório de Ondas e Correntes
+Site:  https://www.coppe.ufrj.br/
+
+Órgão: MME — Potencial de Fontes Alternativas
+Site:  https://www.gov.br/mme/pt-br
+
+================================================================
+  SIGLAS UTILIZADAS
+================================================================
+ANEEL  — Agência Nacional de Energia Elétrica
+ONS    — Operador Nacional do Sistema Elétrico
+EPE    — Empresa de Pesquisa Energética
+MME    — Ministério de Minas e Energia
+MMA    — Ministério do Meio Ambiente
+ABSOLAR— Associação Brasileira de Energia Solar Fotovoltaica
+ABEEÓLICA — Associação Brasileira de Energia Eólica
+ABRAPCH— Associação Brasileira de PCH e CGH
+UNICA  — União da Indústria de Cana-de-Açúcar
+CONAB  — Companhia Nacional de Abastecimento
+GWEC   — Global Wind Energy Council
+IRENA  — International Renewable Energy Agency
+IEA    — International Energy Agency
+MAPA   — Ministério da Agricultura, Pecuária e Abastecimento
+RFA    — Renewable Fuels Association
+UNFCCC — United Nations Framework Convention on Climate Change
+COPPE  — Instituto Alberto Luiz Coimbra de Pós-Graduação (UFRJ)
+================================================================
